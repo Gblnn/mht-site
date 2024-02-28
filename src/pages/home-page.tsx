@@ -35,7 +35,7 @@ export default function HomePage(){
 </div>
 {/* <div style={{width:"100%", height:"65svh", background:"linear-gradient(90deg, midnightblue, mediumslateblue)", boxShadow:"1px 1px 20px rgba(0 0 0/100%)"}}></div> */}
 </div>
-<div className="page" style={{background:"black"}}></div>
+<div className="page" style={{background:"rgb(220 220 220)"}}></div>
         </>
     )
 }
