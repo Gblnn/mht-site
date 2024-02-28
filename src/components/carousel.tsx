@@ -15,7 +15,7 @@ interface Props{
 
 export function CarouselPlugin(props:Props) {
   const plugin = React.useRef(
-    Autoplay({ delay: 3000, stopOnInteraction: true })
+    Autoplay({ delay: 2000, stopOnInteraction: false })
   )
 
   return (
@@ -24,8 +24,8 @@ export function CarouselPlugin(props:Props) {
       plugins={[plugin.current]}
       className="carousel"
       style={{width:"100%", padding:"0", margin:"0", objectFit:"cover"}}
-      onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
+      
     >
       <CarouselContent style={{width:"", height:"25rem"}}>
         
