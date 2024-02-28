@@ -22,7 +22,7 @@ export default function Header(){
         </div>
         <div className="mobile-nav">
         <div style={{display:"flex",gap:"3rem"}}>
-                <Link className={location.pathname=="/home"?"blue":"nav"} to="">HOME</Link>
+                <Link className={location.pathname=="/home"?"blue":"nav"} to="/home">HOME</Link>
                 <Link className="nav" to="">SERVICES</Link>
                 <Link className="nav" to="">ABOUT</Link>
             </div>
