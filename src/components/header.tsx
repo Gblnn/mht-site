@@ -15,8 +15,9 @@ export default function Header(){
             </div>
             <div className="nav-bar" style={{marginRight:"6rem", gap:"2.5rem"}}>
                 <Link className={location.pathname=="/home"?"blue":"nav"} to="/home">HOME</Link>
-                <Link className="nav" to="">ABOUT</Link>
                 <Link className="nav" to="">SERVICES</Link>
+                <Link className="nav" to="">ABOUT</Link>
+                
                 <Link className="nav" to="">CONTACT</Link>
             </div>
         </div>

@@ -11,6 +11,7 @@ import {
 interface Props{
     item1:any
     item2:any
+    item3:any
 }
 
 export function CarouselPlugin(props:Props) {
@@ -38,6 +39,12 @@ export function CarouselPlugin(props:Props) {
           <CarouselItem>
             <div style={{objectFit:"cover", height:"100%"}}>
               {props.item2}
+            </div>
+          </CarouselItem>
+
+          <CarouselItem>
+            <div style={{objectFit:"cover", height:"100%"}}>
+              {props.item3}
             </div>
           </CarouselItem>
         
