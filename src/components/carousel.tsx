@@ -12,6 +12,7 @@ interface Props{
     item1:any
     item2:any
     item3:any
+    item4:any
 }
 
 export function CarouselPlugin(props:Props) {
@@ -24,7 +25,7 @@ export function CarouselPlugin(props:Props) {
     
       plugins={[plugin.current]}
       className="carousel"
-      style={{width:"100%", padding:"0", margin:"0", objectFit:"cover"}}
+      style={{width:"100%", padding:"0", margin:"0", objectFit:"cover", background:"black"}}
       onMouseLeave={plugin.current.reset}
       
     >
@@ -45,6 +46,12 @@ export function CarouselPlugin(props:Props) {
           <CarouselItem>
             <div style={{objectFit:"cover", height:"100%"}}>
               {props.item3}
+            </div>
+          </CarouselItem>
+
+          <CarouselItem>
+            <div style={{objectFit:"cover", height:"100%"}}>
+              {props.item4}
             </div>
           </CarouselItem>
         

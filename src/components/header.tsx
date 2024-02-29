@@ -15,8 +15,8 @@ export default function Header(){
             </div>
             <div className="nav-bar" style={{marginRight:"6rem", gap:"2.5rem"}}>
                 <Link className={location.pathname=="/home"?"blue":"nav"} to="/home">HOME</Link>
-                <Link className="nav" to="">SERVICES</Link>
-                <Link className="nav" to="">ABOUT</Link>
+                <Link className={location.pathname=="/services"?"blue":"nav"} to="/services">SERVICES</Link>
+                <Link className={location.pathname=="/about"?"blue":"nav"} to="/about">ABOUT</Link>
                 
                 <Link className="nav" to="">CONTACT</Link>
             </div>
@@ -24,8 +24,8 @@ export default function Header(){
         <div className="mobile-nav">
         <div style={{display:"flex",gap:"3rem"}}>
                 <Link className={location.pathname=="/home"?"blue":"nav"} to="/home">HOME</Link>
-                <Link className="nav" to="">SERVICES</Link>
-                <Link className="nav" to="">ABOUT</Link>
+                <Link className={location.pathname=="/services"?"blue":"nav"} to="/services">SERVICES</Link>
+                <Link className={location.pathname=="/about"?"blue":"nav"} to="/about">ABOUT</Link>
             </div>
         </div>
         </>
