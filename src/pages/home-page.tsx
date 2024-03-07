@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default function HomePage(){
     return(
         <>
-        <div className="page" style={{ background:"rgb(240 240 240)", alignItems:"flex-start", justifyContent:"flex-start", display:"flex", flexFlow:"column"}}>
+        <div className="page" style={{ background:"rgb(240 240 240)", alignItems:"flex-start", justifyContent:"flex-start", display:"flex", flexFlow:"column", height:"fit-content"}}>
 
 <div className="banner" style={{display:"flex", marginTop:"5rem" }}>
 
@@ -47,9 +47,9 @@ export default function HomePage(){
     </div>
 
 </div>
-<div style={{width:"100%", height:"65svh", background:"white", boxShadow:"1px 1px 20px rgba(0 0 0/50%)", display:"flex", justifyContent:"center", alignItems:"center", padding:"2rem"}}>
+{/* <div style={{width:"100%", height:"65svh", background:"white", boxShadow:"1px 1px 20px rgba(0 0 0/50%)", display:"flex", justifyContent:"center", alignItems:"center", padding:"2rem"}}>
     
-</div>
+</div> */}
 </div>
 <div className="page" style={{background:"rgb(220 220 220)"}}></div>
         </>
