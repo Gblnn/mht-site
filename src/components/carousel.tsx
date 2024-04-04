@@ -13,6 +13,7 @@ interface Props{
     item2:any
     item3:any
     item4:any
+    item5?:any
 }
 
 export function CarouselPlugin(props:Props) {
@@ -54,6 +55,12 @@ export function CarouselPlugin(props:Props) {
               {props.item4}
             </div>
           </CarouselItem>
+
+          {/* <CarouselItem>
+            <div style={{objectFit:"cover", height:"100%"}}>
+              {props.item5}
+            </div>
+          </CarouselItem> */}
         
       </CarouselContent>
     

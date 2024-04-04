@@ -26,6 +26,9 @@ export default function HomePage(){
     item4={<img src="https://www.bathify.ca/cdn/shop/products/pur-3d-image_1200x848.jpg?v=1643250459" style={{height:"100%", width:"100%", objectFit:"cover"}}
     />}
 
+    // item5={<img src="https://www.aljassra-fiberplast.com/images/data/image/catalogue_item/19/custom_cover_19-600.jpg" style={{height:"100%", width:"100%", objectFit:"cover"}}
+    // />}
+
     
     
     />
